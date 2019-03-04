@@ -1,0 +1,36 @@
+
+
+table, th, td{
+			border: 3px solid gold;
+			border-collapse: collapse;
+			padding: 5px;
+		}
+
+th:hover{
+	background-color: red;
+	color:white;
+	transition: 0.5s;
+}
+
+h1:hover{
+	top: 10px;
+	text-shadow: 4px 2px black;
+	color:yellow;
+	/*transform: rotateY(90deg);*/ 
+	transition: 2s;
+	/*font-size: 50px;*/
+}
+
+a{
+	color:yellow;
+	background-color: black;
+	text-decoration: none;
+	padding: 10px 25px;
+	margin-bottom: 20%;
+}
+
+a:hover{
+	color:black;
+	background-color: yellow;
+	transition: 1s;
+}
